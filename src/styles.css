@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body, h1, div, img, a{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    min-width: 100%;
+    min-height: 100%;
+    font-family: OrelegaOne;
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: OrelegaOne;
+    src:url("./assets/fonts/OrelegaOne-Regular.ttf");
+}

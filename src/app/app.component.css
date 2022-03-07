@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#workingDiv{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 100px;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+#tomHanks{
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    width: 100%;
+    border-radius: 3.14px;
+}
+
+h1{
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+    margin-top: 20px;
+    font-size: 3.75vw;
+    justify-self: start !important;
+}
